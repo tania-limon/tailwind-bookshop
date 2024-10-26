@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookshop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="navbar bg-base-100 shadow">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content text-bold bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 ">
+              <li><a>Home</a></li>
+              <li class="">
+                <a >About</a>
+                
+              </li>
+              <li><a>Blog</a></li>
+              <li><a>FAQ</a></li>
+            </ul>
+          </div>
+          <a class=" h-100 lg:w-100 ">
+            <img src="bookl2.jpg"height="79" width="100">
+          </a>
+        </div>
+        <div class="navbar-center hidden lg:flex gap-7 font-bold ">
+          <ul class="menu menu-horizontal"style="padding-left:30.25rem; padding-right: 0.25rem; gap: 15px;">
+            <li class="hover:text-orange-500 cursor-pointer lg:text-lg "><a>Home</a></li>              
+            <li class="hover:text-orange-500 cursor-pointer lg:text-lg"><a>About</a></li>  
+            <li class="hover:text-orange-500 cursor-pointer  lg:text-lg"><a>Blog</a></li>
+            <li class="hover:text-orange-500 cursor-pointer  lg:text-lg"><a>FAQ</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+            <button class="btn btn-sm sm:btn-sm md:btn-md bg-orange-500 text-white hover:bg-green-500 my-1 my-sm-0 mx-1" type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+            <button class="btn btn-sm sm:btn-sm md:btn-md bg-orange-500 text-white hover:bg-green-500 my-1 my-sm-0 mx-1 mx-4" type="submit"><i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+        </div>
+      </div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 bg-gray-100 shadow">
+    <div class="text flex flex-col justify-center px-6 py-6">
+        <div class="text-4xl md:text-5xl lg:text-7xl  font-bold">Unlock a World of  Stories</div>
+        <p class="py-2 text-md lg:text-xl">Find Your Next Favorite Book at Book Online Shop</p>
+        <div class="flex gap-5 mt-6 lg:mb-1">
+            <button class="btn  bg-orange-500 w-full sm:w-full lg:w-52 text-lg font-bold text-white hover:bg-green-500 my-1 my-sm-0 mx-1" type="submit">
+                <i class="fa-solid fa-cart-shopping"></i>Bye Books</button>
+        </div>
+    </div>
+<div class="hero">
+    <img src="bookh.jpg" class="h-full w-full" alt="hero">   
+</div>
+</div> 
+
+
+<section class="w-5/6 mx-auto">
+    <h1 class="text-center text-5xl font-bold mt-7">Books</h1>
+ <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+     <div class="card1"> 
+        <div class="card bg-base-100 w-full rounded h-96 shadow-xl mt-5">
+        <figure>
+          <img
+            src="book1.jpg"
+            alt="Shoes" />
+        </figure>
+        <div class="card-body p-3">
+            <div class="grid grid-cols-5 sm:grid-cols-5 lg:grid-cols-3 justify-center">
+                <div class="col-span-3 sm:col-span-3 lg:col-span-2">
+                    <h2 class="card-title">The Midnight Library</h2>
+        
+          <p>
+        <i class="fas fa-user-tie"></i>
+        Matt Haig
+          </p>
+          </div>
+          <div class="col-span-2 sm:col-span-2 lg:col-span-1 text-end flex flex-col justify-center items-end">
+             <spna style="display:inline-block;">
+            <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+             <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+             <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+             <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+             <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+            </spna>
+            <div class="badge badge-accent badge-outline py-2 my-2">Fiction</div>
+          </div>
+            </div>
+            <div class="grid grid-cols-3 justify-between items-center gap-5">
+                <div class="col-span-3 lg:col-span-3 flex gap-2">
+                <div class="badge badge-secondary  badge-outline">Philosophical</div>
+                <div class="badge badge-secondary  badge-outline">Fantasy</div>
+                <div class="badge badge-secondary  badge-outline">Self-Discovery</div>
+                </div>
+            <div class="col-span-3 lg:col-span-3">
+                <button class="btn btn-outline rounded-full btn-success w-full" > 
+                    <i class="fa fa-eye" aria-hidden="true"></i> Book Details</button>
+                </div>
+            </div> 
+        </div>   
+    </div>     
+</div>
+ <div class="card2">
+        
+    <div class="card bg-base-100 w-full rounded h-96 shadow-xl mt-5">
+        <figure>
+          <img
+            src="book2.jpg"
+            alt="Shoes" />
+        </figure>
+        <div class="card-body p-3">
+            <div class="grid grid-cols-5 sm:grid-cols-5 lg:grid-cols-3 justify-center">
+                <div class="col-span-3 sm:col-span-3 lg:col-span-2">
+                    <h2 class="card-title">Becoming</h2>
+        
+          <p>
+        <i class="fas fa-user-tie"></i>
+        Michelle Obama
+          </p>
+          </div>
+          <div class="col-span-2 sm:col-span-2 lg:col-span-1 text-end flex flex-col justify-center items-end">
+             <spna style="display:inline-block;">
+            <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+             <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+             <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+             <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+             <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+            </spna>
+            <div class="badge badge-accent badge-outline py-2 my-2">Memoir</div>
+          </div>
+            </div>
+            <div class="grid grid-cols-3 justify-between items-center gap-5">
+                <div class="col-span-3 lg:col-span-3 flex gap-2">
+                <div class="badge badge-secondary  badge-outline">Inspiring</div>
+                <div class="badge badge-secondary  badge-outline">Political</div>
+                <div class="badge badge-secondary  badge-outline">Bio-graphy</div>
+                </div>
+            <div class="col-span-3 lg:col-span-3">
+                <button class="btn btn-outline rounded-full btn-success w-full" > 
+                    <i class="fa fa-eye" aria-hidden="true"></i> Book Details</button>
+                </div>
+            </div> 
+        </div>   
+    </div>     
+     </div>
+     <div class="card3">
+        <div class="card bg-base-100 w-full rounded h-96 shadow-xl mt-5">
+            <figure>
+              <img
+                src="book3.jpg"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body p-3">
+                <div class="grid grid-cols-5 sm:grid-cols-5 lg:grid-cols-3 justify-center">
+                    <div class="col-span-3 sm:col-span-3 lg:col-span-2">
+                        <h2 class="card-title">Educated</h2>
+            
+              <p>
+            <i class="fas fa-user-tie"></i>
+            Matt Haig
+              </p>
+              </div>
+              <div class="col-span-2 sm:col-span-2 lg:col-span-1 text-end flex flex-col justify-center items-end">
+                 <spna style="display:inline-block;">
+                <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                </spna>
+                <div class="badge badge-accent badge-outline py-2 my-2">Biography</div>
+              </div>
+                </div>
+                <div class="grid grid-cols-3 justify-between items-center gap-5">
+                    <div class="col-span-3 lg:col-span-3 flex gap-2">
+                    <div class="badge badge-secondary  badge-outline">Memoir</div>
+                    <div class="badge badge-secondary  badge-outline">Education</div>
+                    <div class="badge badge-secondary  badge-outline">Family</div>
+                    </div>
+                <div class="col-span-3 lg:col-span-3">
+                    <button class="btn btn-outline rounded-full btn-success w-full" > 
+                        <i class="fa fa-eye" aria-hidden="true"></i> Book Details</button>
+                    </div>
+                </div> 
+            </div>   
+        </div>     
+     </div>
+     <div class="card4">
+        <div class="card bg-base-100 w-full rounded h-96 shadow-xl mt-5">
+            <figure>
+              <img
+                src="book4.jpg"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body p-3">
+                <div class="grid grid-cols-5 sm:grid-cols-5 lg:grid-cols-3 justify-center">
+                    <div class="col-span-3 sm:col-span-3 lg:col-span-2">
+                        <h2 class="card-title">Where The Crawdeds Sing</h2>
+            
+              <p>
+            <i class="fas fa-user-tie"></i>
+            Mystery
+              </p>
+              </div>
+              <div class="col-span-2 sm:col-span-2 lg:col-span-1 text-end flex flex-col justify-center items-end">
+                 <spna style="display:inline-block;">
+                <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                </spna>
+                <div class="badge badge-accent badge-outline py-2 my-2">Mystery</div>
+              </div>
+                </div>
+                <div class="grid grid-cols-3 justify-between items-center gap-5">
+                    <div class="col-span-3 lg:col-span-3 flex gap-2">
+                    <div class="badge badge-secondary  badge-outline">Nature</div>
+                    <div class="badge badge-secondary  badge-outline">Crime</div>
+                    <div class="badge badge-secondary  badge-outline">Romance</div>
+                    </div>
+                <div class="col-span-3 lg:col-span-3">
+                    <button class="btn btn-outline rounded-full btn-success w-full" > 
+                        <i class="fa fa-eye" aria-hidden="true"></i> Book Details</button>
+                    </div>
+                </div> 
+            </div>   
+        </div>     
+     </div>
+     <div class="card5">
+        <div class="card bg-base-100 w-full rounded h-96 shadow-xl mt-5">
+            <figure>
+              <img
+                src="book5.jpg"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body p-3">
+                <div class="grid grid-cols-5 sm:grid-cols-5 lg:grid-cols-3 justify-center">
+                    <div class="col-span-3 sm:col-span-3 lg:col-span-2">
+                        <h2 class="card-title">Atomic Habits</h2>
+            
+              <p>
+            <i class="fas fa-user-tie"></i>
+            Jemes Clear
+              </p>
+              </div>
+              <div class="col-span-2 sm:col-span-2 lg:col-span-1 text-end flex flex-col justify-center items-end">
+                 <spna style="display:inline-block;">
+                <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                </spna>
+                <div class="badge badge-accent badge-outline py-2 my-2">Self-Help</div>
+              </div>
+                </div>
+                <div class="grid grid-cols-3 justify-between items-center gap-5">
+                    <div class="col-span-3 lg:col-span-3 flex gap-2">
+                    <div class="badge badge-secondary  badge-outline">Productivity</div>
+                    <div class="badge badge-secondary  badge-outline">Self Improvment</div>
+                    <div class="badge badge-secondary  badge-outline">Beheavior</div>
+                    </div>
+                <div class="col-span-3 lg:col-span-3">
+                    <button class="btn btn-outline rounded-full btn-success w-full" > 
+                        <i class="fa fa-eye" aria-hidden="true"></i> Book Details</button>
+                    </div>
+                </div> 
+            </div>   
+        </div>     
+                
+     </div>
+     <div class="card6">
+        <div class="card bg-base-100 w-full rounded h-96 shadow-xl mt-5">
+            <figure>
+              <img
+                src="book6.jpg"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body p-3">
+                <div class="grid grid-cols-5 sm:grid-cols-5 lg:grid-cols-3 justify-center">
+                    <div class="col-span-3 sm:col-span-3 lg:col-span-2">
+                        <h2 class="card-title">Sapiens:A Brief History Of Humankind</h2>
+            
+              <p>
+            <i class="fas fa-user-tie"></i>
+            Yuval Noah Harari
+              </p>
+              </div>
+              <div class="col-span-2 sm:col-span-2 lg:col-span-1 text-end flex flex-col justify-center items-end">
+                 <spna style="display:inline-block;">
+                <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                </spna>
+                <div class="badge badge-accent badge-outline py-2 my-2">History</div>
+              </div>
+                </div>
+                <div class="grid grid-cols-3 justify-between items-center gap-5">
+                    <div class="col-span-3 lg:col-span-3 flex gap-2">
+                    <div class="badge badge-secondary  badge-outline">Anthropology</div>
+                    <div class="badge badge-secondary  badge-outline">Evolution</div>
+                    <div class="badge badge-secondary  badge-outline">Civilization</div>
+                    </div>
+                <div class="col-span-3 lg:col-span-3">
+                    <button class="btn btn-outline rounded-full btn-success w-full" > 
+                        <i class="fa fa-eye" aria-hidden="true"></i> Book Details</button>
+                    </div>
+                </div> 
+            </div>   
+        </div>     
+     </div>
+     <div class="card7">
+        <div class="card bg-base-100 w-full rounded h-96 shadow-xl mt-5">
+            <figure>
+              <img
+                src="book7.jpg"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body p-3">
+                <div class="grid grid-cols-5 sm:grid-cols-5 lg:grid-cols-3 justify-center">
+                    <div class="col-span-3 sm:col-span-3 lg:col-span-2">
+                        <h2 class="card-title">The Silent Patient</h2>
+            
+              <p>
+            <i class="fas fa-user-tie"></i>
+            Alex Michaelides
+              </p>
+              </div>
+              <div class="col-span-2 sm:col-span-2 lg:col-span-1 text-end flex flex-col justify-center items-end">
+                 <spna style="display:inline-block;">
+                <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                </spna>
+                <div class="badge badge-accent badge-outline py-2 my-2">Thriller</div>
+              </div>
+                </div>
+                <div class="grid grid-cols-3 justify-between items-center gap-5">
+                    <div class="col-span-3 lg:col-span-3 flex gap-2">
+                    <div class="badge badge-secondary  badge-outline">Suspense</div>
+                    <div class="badge badge-secondary  badge-outline">Psychological</div>
+                    <div class="badge badge-secondary  badge-outline">Mystery</div>
+                    </div>
+                <div class="col-span-3 lg:col-span-3">
+                    <button class="btn btn-outline rounded-full btn-success w-full " > 
+                        <i class="fa fa-eye" aria-hidden="true"></i> Book Details</button>
+                    </div>
+                </div> 
+            </div>   
+        </div>     
+     </div>
+     <div class="card8">
+        
+        <div class="card bg-base-100 w-full rounded h-96 shadow-xl mt-5">
+            <figure>
+              <img
+                src="book8.jpg"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body p-3">
+                <div class="grid grid-cols-5 sm:grid-cols-5 lg:grid-cols-3 justify-center">
+                    <div class="col-span-3 sm:col-span-3 lg:col-span-2">
+                        <h2 class="card-title">Dune</h2>
+            
+              <p>
+            <i class="fas fa-user-tie"></i>
+            Frank Herbert
+              </p>
+              </div>
+              <div class="col-span-2 sm:col-span-2 lg:col-span-1 text-end flex flex-col justify-center items-end">
+                 <spna style="display:inline-block;">
+                <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                </spna>
+                <div class="badge badge-accent badge-outline py-2 my-2">Science-Fiction</div>
+              </div>
+                </div>
+                <div class="grid grid-cols-3 justify-between items-center gap-5">
+                    <div class="col-span-3 lg:col-span-3 flex gap-2">
+                    <div class="badge badge-secondary  badge-outline">Space</div>
+                    <div class="badge badge-secondary  badge-outline">Adventure</div>
+                    <div class="badge badge-secondary  badge-outline">Epic</div>
+                    </div>
+                <div class="col-span-3 lg:col-span-3">
+                    <button class="btn btn-outline rounded-full btn-success w-full" > 
+                        <i class="fa fa-eye" aria-hidden="true"></i> Book Details</button>
+                    </div>
+                </div> 
+            </div>   
+        </div>            
+     </div>
+     <div class="card9">
+        <div class="card bg-base-100 w-full rounded h-96 shadow-xl mt-5">
+            <figure>
+              <img
+                src="book9.jpg"  alt="Shoes" />
+            </figure>
+            <div class="card-body p-3">
+                <div class="grid grid-cols-5 sm:grid-cols-5 lg:grid-cols-3 justify-center">
+                    <div class="col-span-3 sm:col-span-3 lg:col-span-2">
+                        <h2 class="card-title">The Alchemist</h2>
+            
+              <p>
+            <i class="fas fa-user-tie"></i>
+            Paulo Coelho
+              </p>
+              </div>
+              <div class="col-span-2 sm:col-span-2 lg:col-span-1 text-end flex flex-col justify-center items-end">
+                 <spna style="display:inline-block;">
+                <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                 <i class="fa fa-star text-orange-500" aria-hidden="true"></i>
+                </spna>
+                <div class="badge badge-accent badge-outline py-2 my-2">Fiction</div>
+              </div>
+                </div>
+                <div class="grid grid-cols-3 justify-between items-center gap-5">
+                    <div class="col-span-3 lg:col-span-3 flex gap-2">
+                    <div class="badge badge-secondary  badge-outline">Spiritual</div>
+                    <div class="badge badge-secondary  badge-outline">Adventure</div>
+                    <div class="badge badge-secondary  badge-outline">Philosophical</div>
+                    </div>
+                <div class="col-span-3 lg:col-span-3">
+                    <button class="btn btn-outline rounded-full btn-success w-full" > 
+                        <i class="fa fa-eye" aria-hidden="true"></i> Book Details</button>
+                    </div>
+                </div> 
+            </div>   
+        </div>     
+    </div>
+</div>          
+</section>
+
+<div class="footer w-10/12 mx-auto bg-black h-150 mt-7 ">
+  <div class=" grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 flex sm:flex-col sm:mx-auto md:flex-row justify-between items-center py-10">
+    <div class="p-10">
+      <img src="bookl2.jpg" width="100">
+    <p class="text-sm text-white p-4">Online Book Shop<br>
+      All rights reserved © 2024 </p>
+    </div>
+    <div class=" p-10 sm:py-5 lg:p-10">
+      <h6 class="text-white pb-3">SOCIAL</h6>
+        
+        <span class="flex gap-2"> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+</svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="white" class="bi bi-caret-left-square-fill ml-2" viewBox="0 0 16 16">
+  <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm10.5 10V4a.5.5 0 0 0-.832-.374l-4.5 4a.5.5 0 0 0 0 .748l4.5 4A.5.5 0 0 0 10.5 12"/>
+</svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="white" class="bi bi-facebook ml-2" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951 "/>
+</svg>
+</span>
+     
+        
+    </div>
+    <div class=" p-10">
+      <h6 class="text-white">COMPANY</h6>
+      <ul class=" font-sm text-white mt-3 w-52 p-2 ">
+      <li><a>Home</a></li>
+      <li class="">
+        <a >About</a>
+        
+      </li>
+      <li><a>Blog</a></li>
+      <li><a>FAQ</a></li>
+    </ul>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
